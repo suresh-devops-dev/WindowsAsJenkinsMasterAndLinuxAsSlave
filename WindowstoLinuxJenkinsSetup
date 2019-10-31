@@ -1,0 +1,25 @@
+Windows As a Jenkins Master and Linux as Slave Jenkins Conifiguration Setup
+==============
+1) Install git in Windows machine
+2) create a users 
+3) generate key pair 
+
+
+
+Linux(slave)
+-=-==
+
+1) Install java 
+2) create user same a Master
+3) copy ssh-copy id from windows to linux
+
+establish connecitvity
+
+
+Add Linux as slave node fro manage nodes
+or download SSH plugins in jenkins master
+connect over SSH
+
+i) create a job and choose exec commands over SSH
+
+run playbook commands over ssh
